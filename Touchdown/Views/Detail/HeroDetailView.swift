@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HeroDetailView: View {
     @State private var isPresented: Bool = false
+    let product: Product
     
     var body: some View {
         HStack(alignment: .center, spacing: 6) {
@@ -16,14 +17,14 @@ struct HeroDetailView: View {
                 Text("Price")
                     .fontWeight(.semibold)
                 
-                Text(sampleProduct.formattedPrice)
+                Text(product.formattedPrice)
                     .font(.largeTitle.weight(.black))
                     .scaleEffect(1.2, anchor: .leading)
             }
             .offset(y: isPresented ? -50 : -75)
             Spacer()
             
-            Image(sampleProduct.image)
+            Image(product.image)
                 .resizable()
                 .scaledToFit()
                 .offset(y: isPresented ? 0 : -35)
@@ -39,5 +40,5 @@ struct HeroDetailView: View {
 }
 
 #Preview {
-    HeroDetailView()
+    HeroDetailView(product: sampleProduct)
 }

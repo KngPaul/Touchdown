@@ -9,7 +9,21 @@ import SwiftUI
 
 struct FooterView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .center, spacing: 12) {
+            Text("We offer the most cutting edge, comfortable, lightweight and durable football helmets in the market at affordable prices.")
+                .multilineTextAlignment(.center)
+                .layoutPriority(2)
+            
+            Image("logo-linear")
+                .renderingMode(.template)
+                .layoutPriority(0)
+            
+            Text("Copyright © Paul\nAll rights reserved")
+                .font(.footnote.bold())
+                .multilineTextAlignment(.center)
+                .layoutPriority(1)
+        }
+        .foregroundStyle(.gray)
     }
 }
 

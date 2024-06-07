@@ -8,8 +8,29 @@
 import SwiftUI
 
 struct LogoView: View {
+    @State private var isPresented: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack(spacing: 4) {
+            Text("Touch".uppercased())
+                
+            
+            Image("logo-dark")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 30, height: 30, alignment: .center)
+            
+            Text("Down".uppercased())
+        }
+        .font(.title3.weight(.black))
+        .foregroundStyle(.black)
+        .opacity(isPresented ? 1 : 0)
+        .offset(y: isPresented ? 0 :  -25)
+        .onAppear {
+            withAnimation(.easeOut(duration: 0.5).delay(0.5)) {
+                isPresented = true
+            }
+        }
     }
 }
 

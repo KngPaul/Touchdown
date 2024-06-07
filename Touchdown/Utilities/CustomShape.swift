@@ -16,4 +16,5 @@ struct CustomShape: Shape {
 
 #Preview {
     CustomShape()
+        .padding()
 }

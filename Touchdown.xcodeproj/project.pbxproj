@@ -7,18 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9261E89E2C0B425900A0B021 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9261E89C2C0B425900A0B021 /* Category.swift */; };
+		9261E89F2C0B425900A0B021 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9261E89D2C0B425900A0B021 /* Product.swift */; };
+		9261E8A22C0B435000A0B021 /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9261E8A02C0B435000A0B021 /* ActionView.swift */; };
+		9261E8A32C0B435000A0B021 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9261E8A12C0B435000A0B021 /* RatingsView.swift */; };
+		9261E8A52C0B439400A0B021 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9261E8A42C0B439400A0B021 /* CategoryItemView.swift */; };
+		9261E8A72C0B43A200A0B021 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9261E8A62C0B43A200A0B021 /* ProductDetailView.swift */; };
+		9261E8A92C0B43B000A0B021 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9261E8A82C0B43B000A0B021 /* CustomShape.swift */; };
+		9261E8AB2C0B43E500A0B021 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9261E8AA2C0B43E500A0B021 /* TitleView.swift */; };
+		9261E8AD2C0B446300A0B021 /* ProductGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9261E8AC2C0B446300A0B021 /* ProductGridView.swift */; };
+		926AFF702C12F84C00D9BBC1 /* Simulator Screen Recording - iPhone 15 Pro - 2024-06-07 at 08.53.35.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 926AFF6C2C12F84C00D9BBC1 /* Simulator Screen Recording - iPhone 15 Pro - 2024-06-07 at 08.53.35.mp4 */; };
+		926AFF712C12F84C00D9BBC1 /* Simulator Screenshot - iPhone 15 Pro - 2024-06-07 at 08.55.17.png in Resources */ = {isa = PBXBuildFile; fileRef = 926AFF6D2C12F84C00D9BBC1 /* Simulator Screenshot - iPhone 15 Pro - 2024-06-07 at 08.55.17.png */; };
+		926AFF722C12F84C00D9BBC1 /* Simulator Screenshot - iPhone 15 Pro - 2024-06-07 at 08.55.09.png in Resources */ = {isa = PBXBuildFile; fileRef = 926AFF6E2C12F84C00D9BBC1 /* Simulator Screenshot - iPhone 15 Pro - 2024-06-07 at 08.55.09.png */; };
+		926AFF732C12F84C00D9BBC1 /* Simulator Screenshot - iPhone 15 Pro - 2024-06-07 at 08.54.53.png in Resources */ = {isa = PBXBuildFile; fileRef = 926AFF6F2C12F84C00D9BBC1 /* Simulator Screenshot - iPhone 15 Pro - 2024-06-07 at 08.54.53.png */; };
+		928163BF2C0B144000C1AB76 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928163BE2C0B144000C1AB76 /* ProductItemView.swift */; };
+		928163C32C0B280900C1AB76 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928163C22C0B280900C1AB76 /* Brand.swift */; };
+		928163C52C0B287200C1AB76 /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928163C42C0B287200C1AB76 /* BrandItemView.swift */; };
+		928163C72C0B296100C1AB76 /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928163C62C0B296100C1AB76 /* BrandGridView.swift */; };
+		928163CB2C0B329000C1AB76 /* HeroDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928163CA2C0B329000C1AB76 /* HeroDetailView.swift */; };
 		92C576232C09144500AC19EB /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C576222C09144500AC19EB /* TouchdownApp.swift */; };
 		92C576252C09144500AC19EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C576242C09144500AC19EB /* ContentView.swift */; };
 		92C576272C09144900AC19EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C576262C09144900AC19EB /* Assets.xcassets */; };
 		92C5762A2C09144900AC19EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C576292C09144900AC19EB /* Preview Assets.xcassets */; };
+		92C576342C09157B00AC19EB /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 92C576302C09157B00AC19EB /* category.json */; };
+		92C576352C09157B00AC19EB /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 92C576312C09157B00AC19EB /* player.json */; };
+		92C576362C09157B00AC19EB /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = 92C576322C09157B00AC19EB /* brand.json */; };
+		92C576372C09157B00AC19EB /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 92C576332C09157B00AC19EB /* product.json */; };
+		92C576422C09179C00AC19EB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C576412C09179C00AC19EB /* Constant.swift */; };
+		92C576442C09184400AC19EB /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C576432C09184400AC19EB /* FooterView.swift */; };
+		92C576462C091B8D00AC19EB /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C576452C091B8D00AC19EB /* LogoView.swift */; };
+		92C576482C0930FC00AC19EB /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C576472C0930FC00AC19EB /* Player.swift */; };
+		92C5764A2C09313200AC19EB /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C576492C09313200AC19EB /* CodableBundleExtension.swift */; };
+		92C5764C2C0932E300AC19EB /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C5764B2C0932E300AC19EB /* FeaturedItemView.swift */; };
+		92C5764E2C09335D00AC19EB /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C5764D2C09335D00AC19EB /* FeaturedTabView.swift */; };
+		92C576542C093AA700AC19EB /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C576532C093AA700AC19EB /* CategoryGridView.swift */; };
+		92C576562C093D4700AC19EB /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C576552C093D4700AC19EB /* SectionView.swift */; };
+		92D899802C11092F00A9E372 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D8997F2C11092F00A9E372 /* Shop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9261E89C2C0B425900A0B021 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		9261E89D2C0B425900A0B021 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		9261E8A02C0B435000A0B021 /* ActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
+		9261E8A12C0B435000A0B021 /* RatingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
+		9261E8A42C0B439400A0B021 /* CategoryItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		9261E8A62C0B43A200A0B021 /* ProductDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		9261E8A82C0B43B000A0B021 /* CustomShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		9261E8AA2C0B43E500A0B021 /* TitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		9261E8AC2C0B446300A0B021 /* ProductGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductGridView.swift; sourceTree = "<group>"; };
+		926AFF6C2C12F84C00D9BBC1 /* Simulator Screen Recording - iPhone 15 Pro - 2024-06-07 at 08.53.35.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Simulator Screen Recording - iPhone 15 Pro - 2024-06-07 at 08.53.35.mp4"; sourceTree = "<group>"; };
+		926AFF6D2C12F84C00D9BBC1 /* Simulator Screenshot - iPhone 15 Pro - 2024-06-07 at 08.55.17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 15 Pro - 2024-06-07 at 08.55.17.png"; sourceTree = "<group>"; };
+		926AFF6E2C12F84C00D9BBC1 /* Simulator Screenshot - iPhone 15 Pro - 2024-06-07 at 08.55.09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 15 Pro - 2024-06-07 at 08.55.09.png"; sourceTree = "<group>"; };
+		926AFF6F2C12F84C00D9BBC1 /* Simulator Screenshot - iPhone 15 Pro - 2024-06-07 at 08.54.53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 15 Pro - 2024-06-07 at 08.54.53.png"; sourceTree = "<group>"; };
+		928163BE2C0B144000C1AB76 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
+		928163C22C0B280900C1AB76 /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Brand.swift; path = Touchdown/Data/Brand.swift; sourceTree = SOURCE_ROOT; };
+		928163C42C0B287200C1AB76 /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
+		928163C62C0B296100C1AB76 /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
+		928163CA2C0B329000C1AB76 /* HeroDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HeroDetailView.swift; path = Touchdown/Views/Detail/HeroDetailView.swift; sourceTree = SOURCE_ROOT; };
 		92C5761F2C09144500AC19EB /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C576222C09144500AC19EB /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
 		92C576242C09144500AC19EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		92C576262C09144900AC19EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92C576292C09144900AC19EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92C576302C09157B00AC19EB /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
+		92C576312C09157B00AC19EB /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
+		92C576322C09157B00AC19EB /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
+		92C576332C09157B00AC19EB /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
+		92C576392C0915D700AC19EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		92C576412C09179C00AC19EB /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		92C576432C09184400AC19EB /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		92C576452C091B8D00AC19EB /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		92C576472C0930FC00AC19EB /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		92C576492C09313200AC19EB /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		92C5764B2C0932E300AC19EB /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		92C5764D2C09335D00AC19EB /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
+		92C576532C093AA700AC19EB /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		92C576552C093D4700AC19EB /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		92D8997F2C11092F00A9E372 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +97,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		926AFF6B2C12F7B100D9BBC1 /* App Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				926AFF6C2C12F84C00D9BBC1 /* Simulator Screen Recording - iPhone 15 Pro - 2024-06-07 at 08.53.35.mp4 */,
+				926AFF6F2C12F84C00D9BBC1 /* Simulator Screenshot - iPhone 15 Pro - 2024-06-07 at 08.54.53.png */,
+				926AFF6E2C12F84C00D9BBC1 /* Simulator Screenshot - iPhone 15 Pro - 2024-06-07 at 08.55.09.png */,
+				926AFF6D2C12F84C00D9BBC1 /* Simulator Screenshot - iPhone 15 Pro - 2024-06-07 at 08.55.17.png */,
+			);
+			path = "App Screenshots";
+			sourceTree = "<group>";
+		};
 		92C576162C09144500AC19EB = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +127,15 @@
 		92C576212C09144500AC19EB /* Touchdown */ = {
 			isa = PBXGroup;
 			children = (
+				92C576392C0915D700AC19EB /* Info.plist */,
 				92C576222C09144500AC19EB /* TouchdownApp.swift */,
-				92C576242C09144500AC19EB /* ContentView.swift */,
+				92C5763A2C09167700AC19EB /* Screens */,
+				92C5763B2C09171F00AC19EB /* Views */,
+				92C5763E2C09174F00AC19EB /* Model */,
+				92C576382C09159400AC19EB /* Data */,
+				92C5763F2C09175700AC19EB /* Extensions */,
+				92C576402C09176500AC19EB /* Utilities */,
+				926AFF6B2C12F7B100D9BBC1 /* App Screenshots */,
 				92C576262C09144900AC19EB /* Assets.xcassets */,
 				92C576282C09144900AC19EB /* Preview Content */,
 			);
@@ -65,6 +148,93 @@
 				92C576292C09144900AC19EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92C576382C09159400AC19EB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				92C576322C09157B00AC19EB /* brand.json */,
+				92C576302C09157B00AC19EB /* category.json */,
+				92C576312C09157B00AC19EB /* player.json */,
+				92C576332C09157B00AC19EB /* product.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		92C5763A2C09167700AC19EB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9261E8A62C0B43A200A0B021 /* ProductDetailView.swift */,
+				92C576242C09144500AC19EB /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		92C5763B2C09171F00AC19EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				92C5763C2C09173900AC19EB /* Home */,
+				92C5763D2C09174100AC19EB /* Detail */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		92C5763C2C09173900AC19EB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9261E8AA2C0B43E500A0B021 /* TitleView.swift */,
+				92C576532C093AA700AC19EB /* CategoryGridView.swift */,
+				92C576552C093D4700AC19EB /* SectionView.swift */,
+				92C576432C09184400AC19EB /* FooterView.swift */,
+				9261E8A42C0B439400A0B021 /* CategoryItemView.swift */,
+				92C576452C091B8D00AC19EB /* LogoView.swift */,
+				9261E8AC2C0B446300A0B021 /* ProductGridView.swift */,
+				92C5764B2C0932E300AC19EB /* FeaturedItemView.swift */,
+				92C5764D2C09335D00AC19EB /* FeaturedTabView.swift */,
+				928163BE2C0B144000C1AB76 /* ProductItemView.swift */,
+				928163C42C0B287200C1AB76 /* BrandItemView.swift */,
+				928163C62C0B296100C1AB76 /* BrandGridView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		92C5763D2C09174100AC19EB /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				9261E8A02C0B435000A0B021 /* ActionView.swift */,
+				928163CA2C0B329000C1AB76 /* HeroDetailView.swift */,
+				9261E8A12C0B435000A0B021 /* RatingsView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		92C5763E2C09174F00AC19EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				928163C22C0B280900C1AB76 /* Brand.swift */,
+				9261E89C2C0B425900A0B021 /* Category.swift */,
+				9261E89D2C0B425900A0B021 /* Product.swift */,
+				92C576472C0930FC00AC19EB /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92C5763F2C09175700AC19EB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				92C576492C09313200AC19EB /* CodableBundleExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		92C576402C09176500AC19EB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9261E8A82C0B43B000A0B021 /* CustomShape.swift */,
+				92C576412C09179C00AC19EB /* Constant.swift */,
+				92D8997F2C11092F00A9E372 /* Shop.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +295,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				926AFF712C12F84C00D9BBC1 /* Simulator Screenshot - iPhone 15 Pro - 2024-06-07 at 08.55.17.png in Resources */,
+				926AFF732C12F84C00D9BBC1 /* Simulator Screenshot - iPhone 15 Pro - 2024-06-07 at 08.54.53.png in Resources */,
+				92C576352C09157B00AC19EB /* player.json in Resources */,
+				92C576362C09157B00AC19EB /* brand.json in Resources */,
+				92C576342C09157B00AC19EB /* category.json in Resources */,
+				926AFF702C12F84C00D9BBC1 /* Simulator Screen Recording - iPhone 15 Pro - 2024-06-07 at 08.53.35.mp4 in Resources */,
+				926AFF722C12F84C00D9BBC1 /* Simulator Screenshot - iPhone 15 Pro - 2024-06-07 at 08.55.09.png in Resources */,
 				92C5762A2C09144900AC19EB /* Preview Assets.xcassets in Resources */,
 				92C576272C09144900AC19EB /* Assets.xcassets in Resources */,
+				92C576372C09157B00AC19EB /* product.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +315,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9261E8A52C0B439400A0B021 /* CategoryItemView.swift in Sources */,
+				92C576542C093AA700AC19EB /* CategoryGridView.swift in Sources */,
+				9261E8AD2C0B446300A0B021 /* ProductGridView.swift in Sources */,
+				928163C32C0B280900C1AB76 /* Brand.swift in Sources */,
+				9261E8A22C0B435000A0B021 /* ActionView.swift in Sources */,
 				92C576252C09144500AC19EB /* ContentView.swift in Sources */,
+				9261E8A32C0B435000A0B021 /* RatingsView.swift in Sources */,
+				928163C72C0B296100C1AB76 /* BrandGridView.swift in Sources */,
+				92C576442C09184400AC19EB /* FooterView.swift in Sources */,
+				9261E89E2C0B425900A0B021 /* Category.swift in Sources */,
+				92C5764A2C09313200AC19EB /* CodableBundleExtension.swift in Sources */,
+				92C5764C2C0932E300AC19EB /* FeaturedItemView.swift in Sources */,
 				92C576232C09144500AC19EB /* TouchdownApp.swift in Sources */,
+				92C576422C09179C00AC19EB /* Constant.swift in Sources */,
+				9261E8AB2C0B43E500A0B021 /* TitleView.swift in Sources */,
+				92C576562C093D4700AC19EB /* SectionView.swift in Sources */,
+				928163C52C0B287200C1AB76 /* BrandItemView.swift in Sources */,
+				928163BF2C0B144000C1AB76 /* ProductItemView.swift in Sources */,
+				92C5764E2C09335D00AC19EB /* FeaturedTabView.swift in Sources */,
+				92C576482C0930FC00AC19EB /* Player.swift in Sources */,
+				9261E89F2C0B425900A0B021 /* Product.swift in Sources */,
+				92D899802C11092F00A9E372 /* Shop.swift in Sources */,
+				9261E8A92C0B43B000A0B021 /* CustomShape.swift in Sources */,
+				9261E8A72C0B43A200A0B021 /* ProductDetailView.swift in Sources */,
+				92C576462C091B8D00AC19EB /* LogoView.swift in Sources */,
+				928163CB2C0B329000C1AB76 /* HeroDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +477,12 @@
 				DEVELOPMENT_TEAM = T4WHK2DA5L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Touchdown/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +507,12 @@
 				DEVELOPMENT_TEAM = T4WHK2DA5L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Touchdown/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
